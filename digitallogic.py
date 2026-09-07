@@ -11,7 +11,7 @@
 # Output :
 # 5
 
-n=int(input("Enter the number:"))
+
 
 # bi=""
 # while n>0:
@@ -19,8 +19,12 @@ n=int(input("Enter the number:"))
 #     bi=str(rem)+bi
 #     n=n//2
 
+n=int(input("Enter the number:"))
 bi=bin(n)
 binary=bi[2:]
 
-replace('0','x'):
-replace
+binary=binary.replace('0','x')
+binary=binary.replace('1','0')
+binary=binary.replace('x','1')
+decimal=int(binary,2)
+print(decimal)
