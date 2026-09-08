@@ -1,0 +1,9 @@
+# What is the minimum number of characters that need to be added to the password "aB1ef" to make it strong, according to the strongPassword function?
+
+# Explanation: The strongPassword function checks for the following conditions:
+
+# The password should have at least 6 characters.
+# The password should have at most 20 characters.
+# The password should contain at least one lowercase letter, one uppercase letter, and one digit.
+# The password should not contain three repeating characters in a row.
+# The function returns the minimum number of characters that need to be added to the password to make it strong.
